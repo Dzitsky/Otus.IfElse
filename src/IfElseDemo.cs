@@ -19,6 +19,8 @@ namespace Otus.IfElse
 
 				var number = int.Parse(line);
 
+				//if () {}
+				//if () ;
 
 				if (number % 2 == 0)
 				{
@@ -37,21 +39,22 @@ namespace Otus.IfElse
 
 		public static void Demo()
 		{
-			while (true)
-			{
-				Console.WriteLine("Введите число");
-
-				var i = int.Parse(Console.ReadLine());
-
-				var otvet = i % 2 == 0
-					? "Четное"
-					: i % 3 == 0 ? "Нечетное 3" : "Просто нечетное";
-
-				Console.WriteLine(otvet);
-
-			}
-
 			OddCheck();
+
+			//while (true)
+			//{
+			//	Console.WriteLine("Введите число");
+
+			//	var i = int.Parse(Console.ReadLine());
+
+			//	var otvet = i % 2 == 0
+			//		? "Четное"
+			//		: i % 3 == 0 ? "Нечетное 3" : "Просто нечетное";
+
+			//	Console.WriteLine(otvet);
+
+			//}
+
 
 		}
 	}

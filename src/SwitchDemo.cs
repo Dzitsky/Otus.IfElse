@@ -150,8 +150,17 @@ namespace Otus.IfElse
 
 		public static void Demo()
 		{
-			CheckLength1();
-			CheckAge1();
+			//while (true)
+			//{
+			//	PrintColors();
+			//	var color = (Color)(int.Parse(Console.ReadLine()) - 1);
+
+			//	Console.WriteLine(PrintColor(color));
+			//}
+
+			//CheckLength1();
+
+			//CheckAge1();
 			CheckAge2();
 		}
 	}

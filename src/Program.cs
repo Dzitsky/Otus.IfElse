@@ -6,10 +6,11 @@ namespace Otus.IfElse
 	{
 		static void Main(string[] args)
 		{
-			CycleDemo.Demo();
-			//CycleDemo.Demo();
-			//CycleDemo.Demo();
+			//IfElseDemo.Demo();
+			
+			//SwitchDemo.Demo();
 
+			//CycleDemo.Demo();
 		}
 
 	}

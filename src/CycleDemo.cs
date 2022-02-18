@@ -40,16 +40,16 @@ namespace Otus.IfElse
 		static void ForeachDemo()
 		{
 			var ar = new[] { 1, 2, 3, 4, 5, 6, 7 };
-			foreach (var i in ar)
-			{
-				Console.WriteLine(i);
-			}
+			//foreach (var i in ar)
+			//{
+			//	Console.WriteLine(i);
+			//}
 
-			for (var r = 0; r < ar.Length; r++)
-			{
-				var j = ar[r];
-				Console.WriteLine(j);
-			}
+			//for (var r = 0; r < ar.Length; r++)
+			//{
+			//	var j = ar[r];
+			//	Console.WriteLine(j);
+			//}
 
 			var ii = ar.GetEnumerator();
 
@@ -57,10 +57,6 @@ namespace Otus.IfElse
 			{
 				Console.WriteLine(ii.Current);
 			}
-
-
-
-
 		}
 
 
@@ -81,23 +77,20 @@ namespace Otus.IfElse
 				Console.WriteLine($"{i} * {i} = {i * i}");
 			}
 
-			Console.WriteLine("-----------------");
+			//Console.WriteLine("-----------------");
 
-			for (var i = 0; i < 20; i++)
-			{
-				if (i == 13)
-				{
-					Console.WriteLine("13 - несчастливое число");
-					continue;
-				}
+			//for (var i = 0; i < 20; i++)
+			//{
+			//	if (i == 13)
+			//	{
+			//		Console.WriteLine("13 - несчастливое число");
+			//		continue;
+			//	}
 
-				Console.WriteLine($"{i} * {i} = {i * i}");
-			}
-			Console.WriteLine("Это текст так и не выведется");
-
-
+			//	Console.WriteLine($"{i} * {i} = {i * i}");
+			//}
+			//Console.WriteLine("Это текст так и не выведется");
 		}
-
 
 		static void InnerBreakDemo()
 		{
@@ -168,10 +161,11 @@ namespace Otus.IfElse
 		public static void Demo()
 		{
 			Cycle();
-			GotoCycle();
-			InnerBreakDemo();
-			BreakDemo();
-			ForeachDemo();
+			//ForeachDemo();
+			//BreakDemo();
+			//InnerBreakDemo();
+			//GotoCycle();
+			//GotoDemo();
 		}
 	}
 }
